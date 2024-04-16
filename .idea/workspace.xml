@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de95a4bf-affa-4e85-852e-962fda2d0b6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/basics/FirstQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/basics/FirstTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/basics/JMSContextDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/basics/QueueBrowserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageStructure/MessageDelayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageStructure/MessageExpirationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageStructure/MessagePriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageStructure/MessagePropertiesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageStructure/RequestReplyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageTypes/ByteMessageTypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageTypes/MapMessageTypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageTypes/StreamMessageTypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jndi.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/messageTypes/ObjectMessageTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/messageTypes/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +47,7 @@
       <recent name="main.basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapMessageTypeDemo">
+  <component name="RunManager" selected="Application.ObjectMessageTypeDemo">
     <configuration name="ByteMessageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.messageTypes.ByteMessageTypeDemo" />
       <module name="JMSProject" />
@@ -105,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageExpirationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.messageStructure.MessageExpirationDemo" />
+    <configuration name="MessagePropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.messageStructure.MessagePropertiesDemo" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessagePropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.messageStructure.MessagePropertiesDemo" />
+    <configuration name="ObjectMessageTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.messageTypes.ObjectMessageTypeDemo" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.messageStructure.*" />
+          <option name="PATTERN" value="main.messageTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectMessageTypeDemo" />
         <item itemvalue="Application.MapMessageTypeDemo" />
         <item itemvalue="Application.ByteMessageTypeDemo" />
         <item itemvalue="Application.MessagePropertiesDemo" />
         <item itemvalue="Application.MessageDelayDemo" />
-        <item itemvalue="Application.MessageExpirationDemo" />
       </list>
     </recent_temporary>
   </component>
