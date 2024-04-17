@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de95a4bf-affa-4e85-852e-962fda2d0b6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsP2P/Clinicals/ClinicalsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsP2P/EligibilityCheck/EligibilityCheckerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsP2P/EligibilityCheck/listeners/EligibilityCheckListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsP2P/Note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsP2P/PatientModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/DurableSubscriber/DurableSecurityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/HRApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/SharedSubscriber/MessagesProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/SharedSubscriber/SharedConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/payroll/PayrollApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/security/SecurityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/jmsPubSub/HR/wellnessApp/WellnessApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/autoAck/AutoAcknowledgementConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/autoAck/AutoAcknowledgementProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/clientAck/ClientAcknowledgementConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/clientAck/ClientAcknowledgementProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/dups_ok_ack/DupsOKAcknowledgementConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/dups_ok_ack/DupsOKAcknowledgementProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/sessionTransacted/SessionTransactedAcknowledgementConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/sessionTransacted/SessionTransactedAcknowledgementProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/messageFiltering/claimManagement/Claim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/messageFiltering/claimManagement/ClaimManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/messageFiltering/claimManagement/Notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/messageTypes/ObjectMessageTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/messageTypes/ObjectMessageTypeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jndi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jndi.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/darshanbaranwal/Downloads/JMSProject",
+    "last_opened_file_path": "/Users/darshanbaranwal/Downloads/JMSProject/src/main/guranteedMessaging/sessionTransacted",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -64,21 +59,24 @@
       <recent name="main.jmsPubSub.HR" />
       <recent name="main.jmsP2P.EligibilityCheck.listeners" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/guranteedMessaging/sessionTransacted" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.guranteedMessaging.clientAck" />
+      <recent name="main.guranteedMessaging.dups_ok_ack" />
+      <recent name="main.guranteedMessaging" />
       <recent name="main.jmsPubSub.HR.SharedSubscriber" />
       <recent name="main.jmsPubSub.HR.DurableSubscriber" />
-      <recent name="main.jmsPubSub.HR.wellnessApp" />
-      <recent name="main.jmsPubSub.HR.payroll" />
-      <recent name="main.jmsPubSub.HR.security" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MessagesProducer">
-    <configuration name="DurableSecurityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.jmsPubSub.HR.DurableSubscriber.DurableSecurityApp" />
+  <component name="RunManager" selected="Application.SessionTransactedAcknowledgementConsumerApp">
+    <configuration name="ClaimManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.messageFiltering.claimManagement.ClaimManagement" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.jmsPubSub.HR.DurableSubscriber.*" />
+          <option name="PATTERN" value="main.messageFiltering.claimManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HRApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.jmsPubSub.HR.HRApp" />
+    <configuration name="ClientAcknowledgementConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.clientAck.ClientAcknowledgementConsumerApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.jmsPubSub.HR.*" />
+          <option name="PATTERN" value="main.guranteedMessaging.clientAck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessagesProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.jmsPubSub.HR.SharedSubscriber.MessagesProducer" />
+    <configuration name="ClientAcknowledgementProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.clientAck.ClientAcknowledgementProducerApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.jmsPubSub.HR.SharedSubscriber.*" />
+          <option name="PATTERN" value="main.guranteedMessaging.clientAck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SharedConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.jmsPubSub.HR.SharedSubscriber.SharedConsumerApp" />
+    <configuration name="SessionTransactedAcknowledgementConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.sessionTransacted.SessionTransactedAcknowledgementConsumerApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.jmsPubSub.HR.SharedSubscriber.*" />
+          <option name="PATTERN" value="main.guranteedMessaging.sessionTransacted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WellnessApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.jmsPubSub.HR.wellnessApp.WellnessApp" />
+    <configuration name="SessionTransactedAcknowledgementProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.sessionTransacted.SessionTransactedAcknowledgementProducerApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.jmsPubSub.HR.wellnessApp.*" />
+          <option name="PATTERN" value="main.guranteedMessaging.sessionTransacted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MessagesProducer" />
-        <item itemvalue="Application.SharedConsumerApp" />
-        <item itemvalue="Application.HRApp" />
-        <item itemvalue="Application.DurableSecurityApp" />
-        <item itemvalue="Application.WellnessApp" />
+        <item itemvalue="Application.SessionTransactedAcknowledgementConsumerApp" />
+        <item itemvalue="Application.SessionTransactedAcknowledgementProducerApp" />
+        <item itemvalue="Application.ClientAcknowledgementConsumerApp" />
+        <item itemvalue="Application.ClientAcknowledgementProducerApp" />
+        <item itemvalue="Application.ClaimManagement" />
       </list>
     </recent_temporary>
   </component>

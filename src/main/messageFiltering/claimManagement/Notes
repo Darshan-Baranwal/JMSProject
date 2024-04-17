@@ -1,0 +1,3 @@
+Filtering of messages using MessageSelector.
+Message selector is applied on the Consumer end
+on the property set on the ObjectMessage of the Producer

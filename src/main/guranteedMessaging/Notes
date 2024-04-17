@@ -1,0 +1,15 @@
+Gurantee Messaging via Acknowledgments
+
+1. AUTO_ACKNOWLEDGE - the consumer/session will not acknowledge receipt of a message since the broker assumes
+                       successful receipt of a message after the onMessage handler has returned without error.
+                       No separate client acknowledgment is required. Message sent only once in case of failure,
+                       JMS server takes this overhead to make sure the one time delivery of the message.
+2. DUPS_OK_ACKNOWLEDGE - Duplicate OK -> release the overhead of the JMS server this Acknowledgment is used.
+3. CLIENT_ACKNOWLEDGE - the JMS consumer takes the responsibility to send the acknowledgment. JMS server is not blocked.
+                        JMS consumer client will send Message.acknowledgment()
+4. SESSION_TRANSACTED - Producers session transacted means the send() operation first cached and once commit() then
+                        only it will move to the JMS server queue if there is any rollback then cache gets cleared and
+                        send message removed.
+                        Similarly session transacted in Consumers end means the receive() first cached, once commit() then
+                        message taken from the JMS server queue if receive didn't go well then rollback occurred and the message
+                        remains in the JMS server queue.
