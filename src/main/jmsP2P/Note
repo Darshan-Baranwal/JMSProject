@@ -1,0 +1,5 @@
+So far with consumer -> .receive method we are getting data synchronously,
+but in real time scenarios we don't have to communicate synch..
+Consumer should listen a listener (here MessageListener Interface) which will expose a onMessage
+method in which we get Queue Message Asynchronously. We don't have to poll or
+wait for the producer's message.

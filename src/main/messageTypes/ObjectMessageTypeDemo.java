@@ -25,11 +25,14 @@ public class ObjectMessageTypeDemo {
             patient.setId(1);
             patient.setName("Darshan");
             objectMessage.setObject(patient);
-            jmsContext.createProducer()
-                    .send(queue, objectMessage);
+//            jmsContext.createProducer()
+//                    .send(queue, objectMessage);
+            jmsContext.createProducer().send(queue, patient);
 
-            ObjectMessage received = (ObjectMessage) jmsContext.createConsumer(queue).receive();
-            Patient patientReceived = (Patient) received.getObject();
+//            ObjectMessage received = (ObjectMessage) jmsContext.createConsumer(queue).receive();
+//            Patient patientReceived = (Patient) received.getObject();
+
+            Patient patientReceived = jmsContext.createConsumer(queue).receiveBody(Patient.class);
             System.out.println(patientReceived.getId() + " " +patientReceived.getName());
         }
     }
