@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de95a4bf-affa-4e85-852e-962fda2d0b6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/autoAck/AutoAcknowledgementConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/autoAck/AutoAcknowledgementProducerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/clientAck/ClientAcknowledgementConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/clientAck/ClientAcknowledgementProducerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/dups_ok_ack/DupsOKAcknowledgementConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/dups_ok_ack/DupsOKAcknowledgementProducerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/sessionTransacted/SessionTransactedAcknowledgementConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/guranteedMessaging/sessionTransacted/SessionTransactedAcknowledgementProducerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageFiltering/claimManagement/Claim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageFiltering/claimManagement/ClaimManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/messageFiltering/claimManagement/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsGrouping/MessageGroupingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/Notes: " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/SecuredClinicalsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/SecuredEligibilityCheckListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/SecuredEligibilityCheckerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/sampleConfigsForSecurity/sample-artemis-roles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/sampleConfigsForSecurity/sample-artemis-users.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/jmsSecureQueues/sampleConfigsForSecurity/sample-broker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jndi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jndi.properties" afterDir="false" />
     </list>
@@ -46,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/darshanbaranwal/Downloads/JMSProject/src/main/guranteedMessaging/sessionTransacted",
+    "last_opened_file_path": "/Users/darshanbaranwal/Downloads/JMSProject/src/main/jmsSecureQueues",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -60,23 +56,27 @@
       <recent name="main.jmsP2P.EligibilityCheck.listeners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/jmsSecureQueues" />
       <recent name="$PROJECT_DIR$/src/main/guranteedMessaging/sessionTransacted" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/jmsSecureQueues/sampleConfigsForSecurity" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.jmsSecureQueues" />
       <recent name="main.guranteedMessaging.clientAck" />
       <recent name="main.guranteedMessaging.dups_ok_ack" />
       <recent name="main.guranteedMessaging" />
       <recent name="main.jmsPubSub.HR.SharedSubscriber" />
-      <recent name="main.jmsPubSub.HR.DurableSubscriber" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SessionTransactedAcknowledgementConsumerApp">
-    <configuration name="ClaimManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.messageFiltering.claimManagement.ClaimManagement" />
+  <component name="RunManager" selected="Application.MessageGroupingDemo">
+    <configuration name="DurableSecurityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.jmsPubSub.HR.DurableSubscriber.DurableSecurityApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.messageFiltering.claimManagement.*" />
+          <option name="PATTERN" value="main.jmsPubSub.HR.DurableSubscriber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAcknowledgementConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.clientAck.ClientAcknowledgementConsumerApp" />
+    <configuration name="EligibilityCheckerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.jmsP2P.EligibilityCheck.EligibilityCheckerApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.guranteedMessaging.clientAck.*" />
+          <option name="PATTERN" value="main.jmsP2P.EligibilityCheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAcknowledgementProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.clientAck.ClientAcknowledgementProducerApp" />
+    <configuration name="MessageGroupingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.jmsGrouping.MessageGroupingDemo" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.guranteedMessaging.clientAck.*" />
+          <option name="PATTERN" value="main.jmsGrouping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SessionTransactedAcknowledgementConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.sessionTransacted.SessionTransactedAcknowledgementConsumerApp" />
+    <configuration name="SecuredClinicalsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.jmsSecureQueues.SecuredClinicalsApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.guranteedMessaging.sessionTransacted.*" />
+          <option name="PATTERN" value="main.jmsSecureQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SessionTransactedAcknowledgementProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.guranteedMessaging.sessionTransacted.SessionTransactedAcknowledgementProducerApp" />
+    <configuration name="SecuredEligibilityCheckerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.jmsSecureQueues.SecuredEligibilityCheckerApp" />
       <module name="JMSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.guranteedMessaging.sessionTransacted.*" />
+          <option name="PATTERN" value="main.jmsSecureQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SessionTransactedAcknowledgementConsumerApp" />
-        <item itemvalue="Application.SessionTransactedAcknowledgementProducerApp" />
-        <item itemvalue="Application.ClientAcknowledgementConsumerApp" />
-        <item itemvalue="Application.ClientAcknowledgementProducerApp" />
-        <item itemvalue="Application.ClaimManagement" />
+        <item itemvalue="Application.MessageGroupingDemo" />
+        <item itemvalue="Application.SecuredEligibilityCheckerApp" />
+        <item itemvalue="Application.SecuredClinicalsApp" />
+        <item itemvalue="Application.EligibilityCheckerApp" />
+        <item itemvalue="Application.DurableSecurityApp" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,8 @@
+Roles are defined in artemis-roles.properties
+Users are defined in artemis-users.properties
+Both files are inside broker->etc/...
+
+Further study...
+
+how to define roles and users taken from IAM and Admin applications on runtime ?
+one solution to use LDAP but how?
